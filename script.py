@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 warnings.filterwarnings('ignore')
 
-# Load the dataset
+# Load the dataset (Heart rate)
 heart_data = pd.read_csv("heart.csv")
 
 # Prepare features (X) and target (Y)
